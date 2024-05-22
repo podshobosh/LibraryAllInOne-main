@@ -1,6 +1,6 @@
 node {
     stage('Clone code') {
-        git 'https://github.com/podshobosh/LibraryAllInOne.git'
+        git 'https://github.com/podshobosh/LibraryAllInOne-main.git'
     }
 
     stage('Run tests'){
